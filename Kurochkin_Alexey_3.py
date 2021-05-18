@@ -7,6 +7,7 @@ for str_data in distorted_data:
     str_name = str_data.split()[-1]
     name = str_name.capitalize()
 
+    print(f'Привет, {name}!')
     distorted_data[i] = str_data.replace(str_name, name)
     i += 1
 
